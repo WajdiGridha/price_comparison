@@ -1,0 +1,17 @@
+{
+  "name": "scrape-job-mega.tn",
+  "version": "1.0.0",
+  "description": "Scraper Mega tn web site",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "author": "Gridha Wajdi & Khila Ali",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.0.0",
+    "node-fetch": "^2.6.6",
+    "puppeteer": "^14.2.1"
+  }
+}
