@@ -30,5 +30,7 @@ module.exports = app => {
   // Create a new Tutorial
   router.delete("/", products.deleteAll);
 
+  router.get("/productdetail", products.productsDetail);
+
   app.use("/api/products", router);
 };

@@ -48,7 +48,7 @@ class HeroFull extends React.Component {
             <div className="hero-content">
               <div className="container-xs">
                 <h1 className="m-0 reveal-from-bottom">
-                  Engage Your Visitors with a beautiful template
+                QUI SOMMES-NOUS
                 </h1>
               </div>
             </div>

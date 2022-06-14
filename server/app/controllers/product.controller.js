@@ -1,3 +1,4 @@
+const productsDetailFunc = require("../../scrape-jobs/mega.tn/productDetails");
 const db = require("../models");
 const Product = db.products;
 
@@ -180,4 +181,10 @@ exports.search = (req,res) => {
 exports.count = async(req, res) => {
   const result =  await Product.find().countDocuments();
   res.sendStatus(result)
+};
+
+
+exports.productsDetail = async(req, res) => {
+  const result =  await productsDetailFunc('https://www.mega.tn/telephonie_internet/telephonie_mobile/smartphone/samsung/smartphone-samsung-galaxy-a22-64go');
+ res.send(result);
 };

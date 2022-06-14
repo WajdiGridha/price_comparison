@@ -62,7 +62,7 @@ class HeroFull extends React.Component {
                   className="m-0 mb-32 reveal-from-bottom"
                   data-reveal-delay="400"
                 >
-                  Barbech Wahwaah ya ghali yostrou
+                  Dokan est un comparateur de prix, également connu sous le nom moteur de comparaison de prix, ou shopbot – sur des sites Web spéciaux qui exploitent le Web pour trouver les prix les moins chers pour les produits en ligne. Tapez ce que vous voulez, accédez à l'offre et il va énumérer les prix de votre produit des différents détaillants.
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="500">
                   <Button

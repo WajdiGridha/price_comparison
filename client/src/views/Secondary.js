@@ -55,17 +55,17 @@ class Secondary extends React.Component {
       <React.Fragment>
         <HeroFull className="illustration-section-01" />
         <Testimonial />
-        <Team topDivider />
+        
 
         <GenericSection topDivider>
           <div className="container-xs">
-            <h2 className="mt-0">Lorem ipsum is placeholder text commonly used in the graphic.</h2>
+            <h2 className="mt-0">C'est quoi DOKKAN ?</h2>
             <p>
-              Lorem ipsum dolor sit amet, <a href="#0">consectetur adipiscing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+            Dokan est un comparateur de prix avec des centaines de web marchands dans plusieurs catégories avec des milliers d'articles référencés par nos soins.
+            Pour acheter moins cher et acheter pas cher, comparer les prix en utilisant ce comparateur pour trouver le meilleur rapport qualité prix chez nos web marchands et site e-commerce en ligne.
+          </p>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            Pour l'équipement de la maison, congélateur, appareil photo, téléviseur écran-plat, chaine HIFI, le téléphone mobile ou smartphone, ordinateur portable ou DEAL, vous pourrez comparer tous les prix et acheter moins cher.          </p>
             <figure>
               <Image
                 className="image-larger"
@@ -75,113 +75,24 @@ class Secondary extends React.Component {
                 height={400} />
               <figcaption className="text-color-low">A super-nice image <span role="img" aria-label="mile">😀</span></figcaption>
             </figure>
-            <h4>Flexibility</h4>
+            <h4>Pour Acheter Moins Cher</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Nous travaillons dur chaque jour pour vous apporter les prix les plus attractifs et les moins chers possible sur le marché tunisien pour vous faire gagner du temps et de l'argent. S'il y a autre chose, nous pouvons faire mieux
             </p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur.</li>
-            </ul>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-            </p>
+            
           </div>
         </GenericSection>
 
-        <GenericSection topDivider className="center-content">
-          <div className="container">
-            <SectionHeader data={genericSection01Header} className="center-content" />
-            <ButtonGroup>
-              <Button color="primary" wideMobile>Get started now</Button>
-              <Button color="secondary" wideMobile>Get started now</Button>
-            </ButtonGroup>
-          </div>
-        </GenericSection>
 
-        <GenericSection topDivider>
-          <div className="container-xs">
-            <SectionHeader data={genericSection02Header} className="center-content" />
-            <form style={formStyle}>
-              <div className="mb-24">
-                <Input
-                  type="email"
-                  label="This is a label"
-                  placeholder="Your best email.."
-                  formGroup="desktop"
-                  labelHidden>
-                  <Button color="primary">Early access</Button>
-                </Input>
-              </div>
-              <div className="mb-24">
-                <Input
-                  type="email"
-                  label="This is a label"
-                  placeholder="Your best email.."
-                  formGroup="desktop"
-                  labelHidden
-                  status="error"
-                  hint="Something is wrong.">
-                  <Button color="primary">Early access</Button>
-                </Input>
-              </div>
-              <div className="mb-24">
-                <Input
-                  type="email"
-                  label="This is a label"
-                  placeholder="Your best email.."
-                  formGroup="desktop"
-                  labelHidden
-                  status="success"
-                  hint="You've done it.">
-                  <Button color="primary">Early access</Button>
-                </Input>
-              </div>
-            </form>
-          </div>
-        </GenericSection>
-
-        <GenericSection topDivider>
-          <div className="container-xs">
-            <SectionHeader data={genericSection03Header} className="center-content" />
-            <div className="center-content">
-              <Button
-                color="primary"
-                aria-controls="demo-modal"
-                onClick={this.openModal}>Open modal</Button>
-            </div>
-            <Modal
-              id="demo-modal"
-              show={this.state.demoModalActive}
-              handleClose={this.closeModal}
-            >
-              <div className="center-content">
-                <h3 className="mt-0 mb-12">Join our newsletter</h3>
-                <p className="text-sm">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-                </p>
-              </div>
-              <div>
-                <Input
-                  type="email"
-                  label="This is a label"
-                  placeholder="Your best email.."
-                  formGroup="desktop"
-                  labelHidden>
-                  <Button color="primary">Subscribe</Button>
-                </Input>
-              </div>
-            </Modal>
-          </div >
-        </GenericSection>        
-
+        
+        
         <GenericSection topDivider>
           <div className="container-xs">
             <SectionHeader data={genericSection04Header} className="center-content" />
             <Accordion>
-              <AccordionItem title="Nisi porta lorem mollis aliquam ut." active>
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+              <AccordionItem title="Que fait le site" active>
+              Dokan est un comparateur de prix, également connu sous le nom moteur de comparaison de prix, ou shopbot – sur des sites Web spéciaux qui exploitent le Web pour trouver les prix les moins chers pour les produits en ligne. Tapez ce que vous voulez, accédez à l'offre et il va énumérer les prix de votre produit des différents détaillants.
+              Ils peuvent suivre les offres les moins chères en ligne pour les livres, films, produits blancs, jeux, matériel informatique, téléviseurs et des tas de plus. Ainsi, en même temps qu'un détaillant unique vous donnera son prix, vous pouvez obtenir un prix auprès de plusieurs détaillants et cela dans le but de le trouverez moins cher.
               </AccordionItem>
               <AccordionItem title="Nisi porta lorem mollis aliquam ut.">
                 Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.

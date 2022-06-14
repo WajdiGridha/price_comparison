@@ -4,7 +4,7 @@ const CronJob = require('cron').CronJob;
 const fetch = require('node-fetch');
 
 let pageUrls;
-const apiUrl = 'http://localhost:3000/api';
+const apiUrl = 'http://localhost:5000/api';
 
 const scraper = async () => {
   const browser = await puppeteer.launch({ headless: false }); // default is true

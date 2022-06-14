@@ -1,5 +1,6 @@
 const express = require("express");
 // const bodyParser = require("body-parser"); /* deprecated */
+const products = require("./app/controllers/product.controller.js");
 const cors = require("cors");
 const app = express();
 app.use(cors());
@@ -30,11 +31,12 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to Price Comparison application." });
 });
 
+app.get("/productdetail", products.productsDetail);
 require("./app/routes/product.routes")(app);
 require("./app/routes/authRoute")(app);
 
 // set port, listen for requests
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
