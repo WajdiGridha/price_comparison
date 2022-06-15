@@ -1,0 +1,2 @@
+GET http://localhost:5000/api/productdetail?url=https://www.mega.tn/telephonie_internet/telephonie_mobile/smartphone/samsung/smartphone-samsung-galaxy-a22-64go HTTP/1.1
+content-type: application/json
